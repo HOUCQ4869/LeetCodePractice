@@ -1,12 +1,21 @@
-# LeetCodePractice
+<div align="center">
 
-[简体中文](README.md) | [English](README.en.md)
+# 🧩 LeetCodePractice
 
-A repository for tracking LeetCode practice, with all solutions written in C++. Each problem has its own solution file documenting the approach, complexity analysis, and common pitfalls, making it easy to review systematically.
+[**简体中文**](README.md) | [**English**]
 
-## Directory Structure
+[![Language](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![Standard](https://img.shields.io/badge/Standard-C%2B%2B17-00599C?style=flat-square)](https://en.cppreference.com/w/cpp/17)
+[![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-```
+</div>
+
+> 🚀 A repository for tracking LeetCode practice, with all solutions written in C++. Each problem has its own solution file documenting the approach, complexity analysis, and common pitfalls, making it easy to review systematically.
+
+## 📂 Directory Structure
+
+```text
 LeetCodePractice/
 ├── README.md            # Chinese docs
 ├── README.en.md         # English docs
@@ -18,31 +27,31 @@ LeetCodePractice/
     └── ...
 ```
 
-## Progress
+## 📊 Progress
 
 | # | Problem | Difficulty | Tags | Solution | Date |
-|---|---------|------------|------|----------|------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table | [C++](solutions/0001-two-sum.cpp) | 2026-09-03 |
+|:-:|:--------|:----------:|:----:|:--------:|:----:|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | `Hash Table` | [📝 C++](solutions/0001-two-sum.cpp) | 2026-09-03 |
 
 <!-- Example row, replace with your own records. Append one row per new problem -->
 
-**Statistics**: Easy 0 / Medium 0 / Hard 0
+**📈 Statistics**: 🟢 Easy 0 ｜ 🟡 Medium 0 ｜ 🔴 Hard 0
 
-## Topic Index
+## 🗂️ Topic Index
 
-- [ ] Array & Hashing
-- [ ] Two Pointers
-- [ ] Sliding Window
-- [ ] Linked List
-- [ ] Stack & Queue
-- [ ] Binary Tree
-- [ ] Graph
-- [ ] Binary Search
-- [ ] Dynamic Programming
-- [ ] Greedy
-- [ ] Backtracking
+- [ ] 🔢 Array & Hashing
+- [ ] 🎯 Two Pointers
+- [ ] 🪟 Sliding Window
+- [ ] 🔗 Linked List
+- [ ] 🥞 Stack & Queue
+- [ ] 🌳 Binary Tree
+- [ ] 🕸️ Graph
+- [ ] 🔍 Binary Search
+- [ ] 🧮 Dynamic Programming
+- [ ] 💰 Greedy
+- [ ] 🔙 Backtracking
 
-## Usage
+## ⚙️ Usage
 
 Compile and run a single solution (C++17):
 
@@ -50,9 +59,17 @@ Compile and run a single solution (C++17):
 g++ -std=c++17 -O2 -Wall solutions/0001-two-sum.cpp -o main && ./main
 ```
 
-## Conventions
+## 📌 Conventions
 
 - **File naming**: `solutions/{4-digit number}-{problem-slug}.cpp`, e.g. `0206-reverse-linked-list.cpp`
 - **Source header comment**: includes problem link, approach summary, and time/space complexity
 - **Commit message**: `solve: {number} {problem name}`, e.g. `solve: 0001 Two Sum`
-- **Keep in sync**: after solving a problem, update the Progress table and check it off in the Topic Index
+- **Keep in sync**: after solving a problem, update the 📊 Progress table and check it off in the 🗂️ Topic Index
+
+---
+
+<p align="center">
+  🌐 Language / 语言：
+  <a href="README.md">🇨🇳 简体中文</a> ｜
+  <a href="README.en.md">🇺🇸 <b>English</b></a>
+</p>
